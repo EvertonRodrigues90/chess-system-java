@@ -30,7 +30,7 @@ public class Program {
 		UI.clearScreen();
 		UI.printBoard(chessMatch.getPieces(), possibleMoves);
 		System.out.println();
-		System.out.print("Targer: ");
+		System.out.print("Target: ");
 		ChessPosition targer = UI.readChessPosition(sc);
 		
 		ChessPiece capturedPiece = chessMatch.performChessMove(source, targer);
