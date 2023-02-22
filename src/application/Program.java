@@ -14,6 +14,8 @@ public class Program {
 
 	public static void main(String[] args) {
 		
+		System.out.println("Lets Play");
+		
 		Scanner sc = new Scanner(System.in);
 		ChessMatch chessMatch = new ChessMatch();
 		List<ChessPiece> captured = new ArrayList<>();
